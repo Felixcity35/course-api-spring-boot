@@ -11,6 +11,6 @@ public class homeError {
     @GetMapping
     public String homepageError()
     {
-        return "Application is running !!! "+new Date();
+        return "Application is running, use postman and test the api !!! "+new Date();
     }
 }

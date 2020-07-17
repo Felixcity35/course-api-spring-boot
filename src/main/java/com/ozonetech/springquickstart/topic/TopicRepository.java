@@ -2,8 +2,6 @@ package com.ozonetech.springquickstart.topic;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface TopicRepository extends CrudRepository<Topics,String>{
-	
-	
+interface TopicRepository extends CrudRepository<Topics,String>{
 
 }
